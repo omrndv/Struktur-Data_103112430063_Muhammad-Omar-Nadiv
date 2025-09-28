@@ -1,7 +1,5 @@
 # Profile Mahasiswa 👨🏻‍🎓
 
-## Deskripsi 📝
-
 `Nama = Muhammad Omar Nadiv`  
 `Kelas = 12IF06`  
 `NIM = 103112430063`  
