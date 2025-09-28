@@ -1,6 +1,6 @@
-# Profile Mahasiswa
+# 👨🏻‍🎓 Profile Mahasiswa
 
-## Deskripsi 📝
+## 📝 Deskripsi 
 
 `Nama = Muhammad Omar Nadiv`  
 `Kelas = 12IF06`  
