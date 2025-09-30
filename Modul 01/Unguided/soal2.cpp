@@ -21,6 +21,15 @@ int main()
         {
             cout << "Nol";
         }
+        else if (num == 10)
+        {
+            cout << "Sepuluh";
+        }
+        else if (num >= 11 && num <= 19)
+        {
+            string belasan[] = {"", "Sebelas", "Dua Belas", "Tiga Belas", "Empat Belas", "Lima Belas", "Enam Belas", "Tujuh Belas", "Delapan Belas", "Sembilan Belas"};
+            cout << belasan[num - 10];
+        }
         else
         {
             if (num / 10 > 0)
