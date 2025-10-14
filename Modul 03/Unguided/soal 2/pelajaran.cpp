@@ -1,15 +1,17 @@
-#ifndef PELAJARAN_H
-#define PELAJARAN_H
-
-#include <string>
+#include <iostream>
+#include "pelajaran.h"
 using namespace std;
 
-struct Pelajaran {
-    string namaMapel;
-    string kodeMapel;
-};
+Pelajaran create_pelajaran(string namapel, string kodepel)
+{
+    Pelajaran pel;
+    pel.namaMapel = namapel;
+    pel.kodeMapel = kodepel;
+    return pel;
+}
 
-Pelajaran create_pelajaran(string namapel, string kodepel);
-void tampil_pelajaran(Pelajaran pel);
-
-#endif
+void tampil_pelajaran(Pelajaran pel)
+{
+    cout << "Nama Mata Pelajaran : " << pel.namaMapel << endl;
+    cout << "Kode Mata Pelajaran : " << pel.kodeMapel << endl;
+}

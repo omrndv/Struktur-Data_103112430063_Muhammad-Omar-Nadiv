@@ -4,7 +4,8 @@
 #include <string>
 using namespace std;
 
-struct Pelajaran {
+struct Pelajaran
+{
     string namaMapel;
     string kodeMapel;
 };
