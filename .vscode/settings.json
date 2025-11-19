@@ -5,7 +5,8 @@
         "string": "cpp",
         "string_view": "cpp",
         "vector": "cpp",
-        "semaphore.h": "c"
+        "semaphore.h": "c",
+        "unordered_map": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
